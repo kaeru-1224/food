@@ -1,0 +1,96 @@
+@import url("reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+
+body{
+    background-color: aliceblue;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self:center;}
+
+.title-header{
+    width: 100%;
+    text-align: center;
+
+}
+.title-name{
+    font-family: 'Rampart One', cursive;
+    font-size: 80px;
+    padding: 5px;
+    margin: 45px 0px;
+}
+.search-box{
+    text-align: center;
+    width: 600px;
+    height: 60px;
+}
+.btn{
+    height: 60px;
+    width: 100px;
+}
+.result{
+    margin: 50px 0px;
+    font-size: 30px;}
+.main-box{
+    width: 80%;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+place-items:center;
+} 
+.recipi{
+    width: 40%;
+}
+img{
+    width: 300px;
+    height: 300px;
+}
+.main-contaier{
+    background-color: white;
+    width: 300px;
+    height: 500px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 20px;
+    width: 100%;
+    border-bottom: 1px solid black;
+
+}
+.name{
+    margin: 10px 0px;
+}
+.main-contaier:hover{
+border:1px solid cadetblue;
+}
+
+.random{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+.newthings{
+height: 400px;
+}
+.main-none{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 80px;
+
+
+}
+.newthings >.info{
+    border: none;
+    text-align: center;
+    padding: 1px;
+
+}
